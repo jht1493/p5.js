@@ -566,7 +566,7 @@ p5.prototype.createButton = function(label, value) {
  */
 p5.prototype.createCheckbox = function() {
   p5._validateParameters('createCheckbox', arguments);
-  const elt = document.createElement('div');
+  const elt = document.createElement('span');
   const checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   elt.appendChild(checkbox);
